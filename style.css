@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
+ {
+  font-family: 'Henny Penny', cursive;
+  font-family: 'Pattaya', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h-font, .h-font * {
+  font-family: 'Henny Penny', cursive;
+  font-size: xx-large;
+}
+
+.h-font2, .h-font2 * {
+  font-family: 'Pattaya', sans-serif;
+  font-size: large ;
+}
+
+.t-font, .t-font * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-color {
+  background: #9453a6;
+background: linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
+background: -webkit-linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
+background: -moz-linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
+}
+
+.btn-solid {
+  border: none;
+  background: none;
+}
+
+.btn-position {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.gallery-img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.footer-links:hover {
+  color: rgb(215, 109, 17);
+}
+
+@media screen and (max-width: 450px) {
+  .hide-label {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  ::placeholder {
+      color: transparent !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hide-carousel {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .d-img {
+    background-image: url(images/mardi\ logo.png) !important;  }
+}
