@@ -1,29 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
  {
-  font-family: 'Henny Penny', cursive;
-  font-family: 'Pattaya', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Henny Penny", cursive;
+  font-family: "Pattaya", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.h-font, .h-font * {
-  font-family: 'Henny Penny', cursive;
+.h-font,
+.h-font * {
+  font-family: "Henny Penny", cursive;
   font-size: xx-large;
 }
 
-.h-font2, .h-font2 * {
-  font-family: 'Pattaya', sans-serif;
-  font-size: xx-large ;
+.h-font2,
+.h-font2 * {
+  font-family: "Pattaya", sans-serif;
+  font-size: xx-large;
 }
 
-.t-font, .t-font * {
-  font-family: 'Roboto', sans-serif;
+.t-font,
+.t-font * {
+  font-family: "Roboto", sans-serif;
 }
 
 .background-color {
   background: #9453a6;
-background: linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
-background: -webkit-linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
-background: -moz-linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
+  background: linear-gradient(143deg, #9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
+  background: -webkit-linear-gradient(
+    143deg,
+    #9453a6 0%,
+    #8cbf3f 40%,
+    #f2cc05 80%
+  );
+  background: -moz-linear-gradient(
+    143deg,
+    #9453a6 0%,
+    #8cbf3f 40%,
+    #f2cc05 80%
+  );
 }
 
 .btn-solid {
@@ -56,7 +69,6 @@ background: -moz-linear-gradient(143deg,#9453a6 0%, #8cbf3f 40%, #f2cc05 80%);
 
 @media screen and (min-width: 450px) {
   ::placeholder {
-      color: transparent !important;
+    color: transparent !important;
   }
 }
-
