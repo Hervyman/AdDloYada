@@ -78,7 +78,7 @@
     </header>
 
     <main>
-      <form action="" method="POST">
+      <form action="https://formspree.io/f/xjvlnjya" method="POST">
       <div class="container d-flex justify-content-center m-auto my-5 row background-color rounded-5">
         <div class="col m-3">
           <label for="First name" class="form-label hide-label">First Name</label>
@@ -87,6 +87,7 @@
             class="form-control"
             placeholder="First name"
             aria-label="First name"
+            name="first name"
           />
         </div>
         <div class="col m-3">
@@ -96,6 +97,7 @@
             class="form-control"
             placeholder="Last name"
             aria-label="Last name"
+            name="last name"
           />
         </div>
 
@@ -108,6 +110,7 @@
             class="form-control"
             id="email"
             placeholder="name@example.com"
+            name="email"
           />
         </div>
         <div class="m-3">
@@ -119,10 +122,11 @@
             id="textarea"
             rows="3"
             placeholder="Textarea"
+            name="textarea"
           ></textarea>
         </div>
         <div class="m-3">
-          <button type="submit" class="rounded">Submit</button>
+          <button type="submit" value="Submit" class="rounded">Submit</button>
         </div>
       </div>
     </form>
